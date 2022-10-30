@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+. config
+
 if [ -z $1 ] && [ -z $2 ]
 then
   . arrayCrypto
@@ -12,7 +14,6 @@ else
   fi
 fi
 
-API=1c8c312d-797d-4764-b8fe-eebc92225c17
 COUNT=0
 MONEY_EUR=0
 MONEY_BTC=0
